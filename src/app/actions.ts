@@ -8,7 +8,7 @@ import { and, eq, sql } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
-const BASE_URL = "http://localhost:3000/feedback";
+const BASE_URL = "feed-lytic.vercel.app/feedback";
 
 export async function generateLinkAction(formData: FormData) {
   const { userId, redirectToSignIn } = await auth();

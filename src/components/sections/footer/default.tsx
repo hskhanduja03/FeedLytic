@@ -67,7 +67,7 @@ export default function FooterSection() {
               <ModeToggle />
             </div>
             <div>
-              Made with &hearts; by <Link href="/">Harmeet</Link>{" "}
+              Made with &hearts; by <Link href="https://linkedin.com/in/hskhanduja">Harmeet</Link>{" "}
             </div>
           </FooterBottom>
         </Footer>
