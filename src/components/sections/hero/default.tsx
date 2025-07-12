@@ -1,8 +1,6 @@
 "use client";
 
 import { Button } from "../../ui/button";
-import { Badge } from "../../ui/badge";
-import { ArrowRightIcon } from "lucide-react";
 import { Section } from "../../ui/section";
 import { Mockup, MockupFrame } from "../../ui/mockup";
 import Glow from "../../ui/glow";
@@ -29,12 +27,6 @@ export default function Hero() {
     <Section className="fade-bottom overflow-hidden pb-0 sm:pb-0 md:pb-0">
       <div className="mx-auto flex max-w-container flex-col gap-8 pt-8 sm:gap-20">
         <div className="flex flex-col items-center gap-6 text-center sm:gap-12">
-          {/* <Badge variant="outline" className="animate-appear">
-            <Link href="/dashboard" className="flex items-center gap-1">
-              Get started
-              <ArrowRightIcon className="h-3 w-3" />
-            </Link>
-          </Badge> */}
           <a
             href="https://www.producthunt.com/posts/FeedLytic?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-FeedLytic"
             target="_blank"
